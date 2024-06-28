@@ -11,7 +11,8 @@ class CharacterGroup extends Component {
     let strRomajiCharacters = '';
     let strKanaCharacters = '';
     Object.keys(this.props.characters).map(character => {
-      strRomajiCharacters+=this.props.characters[character][0]+' · ';
+      const romajiString = this.props.characters[character].join('/')
+      strRomajiCharacters+=romajiString+' · ';
       strKanaCharacters+=character+' · ';
     });
     strRomajiCharacters = strRomajiCharacters.slice(0, -2);

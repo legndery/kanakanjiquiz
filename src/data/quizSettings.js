@@ -6,3 +6,5 @@ export const quizSettings = {
         4: 20
     }
 };
+export const STAGE_FIRST = 1;
+export const STAGE_LAST = 4;
