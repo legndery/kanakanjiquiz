@@ -1,6 +1,1 @@
-/node_modules/
-/dist/
-/dev_content/
-.vscode/
-deldist.bat
-.env
+node_modules
