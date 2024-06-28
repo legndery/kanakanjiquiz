@@ -63,6 +63,8 @@ export const kanaDictionary = {
     'k_group33_a': { characters: { 'ティ': ['ti'], 'ディ': ['di'], 'デュ': ['du'], 'トゥ': ['tu'] } }
   },
   'kanji': {
-    'kan_group1': { characters: { '一':['hito'], '二': ['futa'], '三': ['mitsu', 'mi'], '山': ['yama']} },
+    'kan_group1': { characters: { '一': ['hito'], '二': ['futa'], '三': ['mitsu', 'mi'], '四': ['yo', 'yu', 'yon'], '五': ['itsu'] } },
+    'kan_group2': { characters: { '六': ['mu', 'mut', 'mui'], '七': ['nana', 'nano'], '八': ['yat', 'ya', 'you'], '九': ['kokono'], '十': ['too'] } },
+    'kan_groupx': { characters: { '山': ['yama'] } }
   }
 };
