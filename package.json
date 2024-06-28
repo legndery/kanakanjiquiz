@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/anzzstuff/kanaquiz/issues"
   },
-  "homepage": "https://github.com/anzzstuff/kanaquiz#readme",
+  "homepage": ".",
   "browserslist": [
     ">0.25%",
     "not dead"
