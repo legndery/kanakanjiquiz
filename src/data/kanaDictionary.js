@@ -1,3 +1,4 @@
+// https://github.com/davidluzgouveia/kanji-data?tab=readme-ov-file
 export const kanaDictionary = {
   'hiragana': {
     'h_group1': { characters: { 'あ': ['a'], 'い': ['i'], 'う': ['u'], 'え': ['e'], 'お': ['o'] } },
@@ -62,9 +63,41 @@ export const kanaDictionary = {
     'k_group32_a': { characters: { 'チェ': ['che'], 'シェ': ['she'], 'ジェ': ['je'] } },
     'k_group33_a': { characters: { 'ティ': ['ti'], 'ディ': ['di'], 'デュ': ['du'], 'トゥ': ['tu'] } }
   },
-  'kanji': {
-    'kan_group1': { characters: { '一': ['hito'], '二': ['futa'], '三': ['mitsu', 'mi'], '四': ['yo', 'yu', 'yon'], '五': ['itsu'] } },
-    'kan_group2': { characters: { '六': ['mu', 'mut', 'mui'], '七': ['nana', 'nano'], '八': ['yat', 'ya', 'you'], '九': ['kokono'], '十': ['too'] } },
-    'kan_groupx': { characters: { '山': ['yama'] } }
+  "kanji_onyomi":
+  {
+    "kanji_onyomi_grp1": { "characters": { "一": ["ichi", "itsu"], "二": ["ni"], "九": ["ku", "kyuu"], "七": ["shichi"], "人": ["nin", "jin"] } },
+    "kanji_onyomi_grp2": { "characters": { "入": ["nyuu"], "八": ["hachi"], "十": ["juu"], "三": ["san"], "上": ["jou"] } },
+    "kanji_onyomi_grp3": { "characters": { "下": ["ka", "ge"], "大": ["tai", "dai"], "女": ["jo"], "山": ["san"], "川": ["sen"] } },
+    "kanji_onyomi_grp4": { "characters": { "土": ["do", "to"], "千": ["sen"], "子": ["shi", "su"], "小": ["shou"], "中": ["chuu"] } },
+    "kanji_onyomi_grp5": { "characters": { "五": ["go"], "六": ["roku"], "円": ["en"], "天": ["ten"], "日": ["nichi", "jitsu"] } },
+    "kanji_onyomi_grp6": { "characters": { "月": ["getsu", "gatsu"], "木": ["moku", "boku"], "水": ["sui"], "火": ["ka"], "出": ["shutsu"] } },
+    "kanji_onyomi_grp7": { "characters": { "右": ["u", "yuu"], "四": ["shi"], "左": ["sa"], "本": ["hon"], "白": ["haku"] } },
+    "kanji_onyomi_grp8": { "characters": { "万": ["man", "ban"], "今": ["kon"], "午": ["go"], "友": ["yuu"], "父": ["fu"] } },
+    "kanji_onyomi_grp9": { "characters": { "北": ["hoku"], "半": ["han"], "外": ["gai"], "母": ["bo"], "休": ["kyuu"] } },
+    "kanji_onyomi_grp10": { "characters": { "先": ["sen"], "名": ["mei", "myou"], "年": ["nen"], "気": ["ki", "ke"], "百": ["hyaku"] } },
+    "kanji_onyomi_grp11": { "characters": { "男": ["dan"], "見": ["ken"], "車": ["sha"], "毎": ["mai"], "行": ["kou", "gyou"] } },
+    "kanji_onyomi_grp12": { "characters": { "西": ["sei", "sai"], "何": ["ka"], "来": ["rai"], "学": ["gaku"], "金": ["kin"] } },
+    "kanji_onyomi_grp13": { "characters": { "雨": ["u"], "国": ["koku"], "東": ["tou"], "長": ["chou"], "前": ["zen"] } },
+    "kanji_onyomi_grp14": { "characters": { "南": ["nan"], "後": ["go", "kou"], "食": ["shoku"], "校": ["kou"], "時": ["ji"] } },
+    "kanji_onyomi_grp15": { "characters": { "高": ["kou"], "間": ["kan", "ken"], "話": ["wa"], "電": ["den"], "聞": ["bun", "mon"] } },
+    "kanji_onyomi_grp16": { "characters": { "語": ["go"], "読": ["tou", "doku"], "生": ["sei", "shou"], "書": ["sho"] } }
+  },
+  "kanji_kunyomi": {
+    "kanji_kunyomi_grp1": { "characters": { "一": ["hito"], "二": ["futa"], "九": ["kokono"], "七": ["nana", "nano"], "人": ["hito", "to"] } },
+    "kanji_kunyomi_grp2": { "characters": { "入": ["hai", "i"], "八": ["ya", "you"], "十": ["too"], "三": ["mi"], "上": ["ue", "a", "nobo", "uwa", "kami"] } },
+    "kanji_kunyomi_grp3": { "characters": { "下": ["shita", "sa", "kuda", "o"], "大": ["oo"], "女": ["onna", "me"], "山": ["yama"], "川": ["kawa"] } },
+    "kanji_kunyomi_grp4": { "characters": { "土": ["tsuchi"], "千": ["chi"], "子": ["ko"], "小": ["chii", "ko", "o"], "中": ["naka"] } },
+    "kanji_kunyomi_grp5": { "characters": { "五": ["itsu"], "六": ["mu"], "円": ["maru"], "天": ["ama"], "日": ["hi", "ka", "bi"] } },
+    "kanji_kunyomi_grp6": { "characters": { "月": ["tsuki"], "木": ["ki", "ko"], "水": ["mizu"], "火": ["hi", "ho"], "出": ["de", "da"] } },
+    "kanji_kunyomi_grp7": { "characters": { "右": ["migi"], "四": ["yon", "yo"], "左": ["hidari"], "本": ["moto"], "白": ["shiro", "shira"] } },
+    "kanji_kunyomi_grp8": { "characters": { /*"万": [],*/ "今": ["ima"], /*"午": [],*/ "友": ["tomo"], "父": ["chichi"] } },
+    "kanji_kunyomi_grp9": { "characters": { "北": ["kita"], "半": ["naka"], "外": ["soto", "hazu"], "母": ["haha"], "休": ["yasu"] } },
+    "kanji_kunyomi_grp10": { "characters": { "先": ["saki", "mazu"], "名": ["na"], "年": ["toshi"], "気": ["iki"], "百": ["momo"] } },
+    "kanji_kunyomi_grp11": { "characters": { "男": ["otoko"], "見": ["mi"], "車": ["kuruma"], "毎": ["goto"], "行": ["i", "okona", "yu"] } },
+    "kanji_kunyomi_grp12": { "characters": { "西": ["nishi"], "何": ["nani", "nan"], "来": ["ku"], "学": ["mana"], "金": ["kane"] } },
+    "kanji_kunyomi_grp13": { "characters": { "雨": ["ame", "ama"], "国": ["kuni"], "東": ["higashi"], "長": ["naga"], "前": ["mae"] } },
+    "kanji_kunyomi_grp14": { "characters": { "南": ["minami"], "後": ["ushi", "ato", "nochi"], "食": ["ta", "ku"], /*"校": [],*/ "時": ["toki"] } },
+    "kanji_kunyomi_grp15": { "characters": { "高": ["taka"], "間": ["aida", "ma"], "話": ["hana", "hanashi"], /*"電": [],*/ "聞": ["ki"] } },
+    "kanji_kunyomi_grp16": { "characters": { "語": ["kata"], "読": ["yo"], "生": ["i", "nama", "u", "ha", "ki"], "書": ["ka"] } }
   }
 };
