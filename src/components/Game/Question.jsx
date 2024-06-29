@@ -184,7 +184,7 @@ class Question extends Component {
         this.props.stage === 2 ?
           findRomajisAtKanaKey(this.previousQuestion, kanaDictionary).join('/')
           : this.previousQuestion.join('')
-      ) + ' = ' + this.previousAllowedAnswers.join('/');
+      ) + ' = ' + this.previousAllowedAnswers.join('/ ');
 
       if (this.state.previousAnswerWasCorrect)
         resultString = (
