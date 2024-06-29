@@ -226,7 +226,7 @@ class ChooseCharacters extends Component {
           <div className="col-xs-12">
             <div className="panel panel-default">
               <div className="panel-body welcome">
-                <h4>Welcome to Kana Pro!</h4>
+                <h4>Welcome to Kanji Pro!</h4>
                 <p>Please choose the groups of characters that you'd like to be studying.</p>
               </div>
             </div>
